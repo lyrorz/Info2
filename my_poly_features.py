@@ -1,3 +1,4 @@
+import numpy as np
 def my_poly_features(xs, degree):
     """Generates polynomial features from given data
 
@@ -14,5 +15,8 @@ def my_poly_features(xs, degree):
     """
     # Your implementation
     pass
+
+x = np.array([[1,2],[5,6]])
+y = np.array([[3,4],[7,8]])
 
 # TODO: 手动实现
